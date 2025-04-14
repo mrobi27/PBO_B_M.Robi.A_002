@@ -4,7 +4,7 @@ public class LoginSystem {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        Admin admin = new Admin("Muhamad Robi A", "002", "Admin002", "Password002");
+        Admin admin = new Admin("X", "002", "Admin002", "Password002");
         Mahasiswa mahasiswa = new Mahasiswa("Muhamad Robi Ardita", "202410370110002");
 
         while (true) {

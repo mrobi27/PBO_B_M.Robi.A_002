@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdf04765-d1e3-4c99-9a09-ad0f6e5266a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Codelab/src/KarakterGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codelab/src/Musuh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Codelab/src/Pahlawan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Modul 2.zip" beforeDir="false" />
-    </list>
+    <list default="true" id="bdf04765-d1e3-4c99-9a09-ad0f6e5266a2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
