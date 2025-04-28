@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PBO.iml" filepath="$PROJECT_DIR$/PBO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codelab.iml" filepath="$PROJECT_DIR$/codelab.iml" />
     </modules>
   </component>
 </project>

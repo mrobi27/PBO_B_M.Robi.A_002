@@ -1,0 +1,16 @@
+package perpustakaan;
+
+public class NonFiksi extends Buku {
+
+    private final String bidang;
+
+    public NonFiksi(String judul, String penulis, String bidang) {
+        super(judul, penulis);
+        this.bidang = bidang;
+    }
+
+    @Override
+    public void displayInfo() {
+        System.out.println("Buku Non-Fiksi: " + judul + " Oleh " + penulis + "(Bidang : " + bidang + ")");
+    }
+}
