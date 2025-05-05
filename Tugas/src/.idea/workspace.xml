@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f34f8440-815b-4519-93f7-0b7bad2dd743" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/com/praktikum/actions/AdminActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/praktikum/actions/MahasiswaActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codelab/Modul 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Codelab/Modul 4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codelab/Modul 4/codelab/src/perpustakaan/Peminjaman.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Codelab/Modul 4/codelab/src/perpustakaan/Peminjaman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/praktikum/main/LoginSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mahasiswa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2wU2CQH3j6FYB7iNxcYvsOi7cP2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/PBO_M.Robi.A_002/Tugas"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f34f8440-815b-4519-93f7-0b7bad2dd743" name="Changes" comment="" />
+      <created>1746081704107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746081704107</updated>
+    </task>
+    <servers />
+  </component>
+</project>
