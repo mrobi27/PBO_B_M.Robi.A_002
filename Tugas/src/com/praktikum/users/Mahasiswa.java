@@ -1,6 +1,8 @@
 package com.praktikum.users;
 import java.util.Scanner;
 import com.praktikum.actions.MahasiswaActions;
+import com.praktikum.data.Item;
+import com.praktikum.main.LoginSystem;
 
 public class Mahasiswa extends User implements MahasiswaActions {
     Scanner scan = new Scanner(System.in);
@@ -19,7 +21,7 @@ public class Mahasiswa extends User implements MahasiswaActions {
     }
 
     @Override
-    public void reportItem() {
+    public void reportdItem() {
         System.out.print("Masukkan Nama Barang: ");
         String namaBarang = scan.nextLine();
         System.out.print("Masukkan Deskripsi Barang: ");
@@ -31,11 +33,26 @@ public class Mahasiswa extends User implements MahasiswaActions {
         System.out.println("Nama Barang      : " + namaBarang);
         System.out.println("Deskripsi Barang : " + deskripsiBarang);
         System.out.println("Lokasi Terakhir  : " + lokasiTerakhir);
+
+        Item item = new Item(namaBarang, deskripsiBarang, lokasiTerakhir, "Reported");
+        LoginSystem.reportedItems.add(item);
+        System.out.println("Laporan berhasil ditambah..");
     }
 
     @Override
     public void viewReportedItems() {
-        System.out.println(">> Fitur Lihat Laporan Belum Tersedia <<");
+        if (LoginSystem.reportedItems.isEmpty()){
+            System.out.println("Belum ada laporan barang." );
+        } else {
+            System.out.println("=== Daftar Barang yang dilaporkan === ");
+            for (Item item : LoginSystem.reportedItems){
+                if ("Reported".equalsIgnoreCase(item.getStatus())){
+                    System.out.println("\nNama: " + item.getItemName());
+                    System.out.println("Deskripsi: " + item.getDescription());
+                    System.out.println("Lokasi: " +item.getLocation());
+                }
+            }
+        }
     }
 
     @Override
@@ -51,7 +68,7 @@ public class Mahasiswa extends User implements MahasiswaActions {
             scan.nextLine();
 
             if (pilihan == 1) {
-                reportItem();
+                reportdItem();
             } else if (pilihan == 2) {
                 viewReportedItems();
             } else if (pilihan == 0) {
